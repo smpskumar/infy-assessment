@@ -1,8 +1,11 @@
 package com.test.demo.payload.response;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class ResultResponse {
 
 	private int sum;
@@ -11,29 +14,29 @@ public class ResultResponse {
 	
 	private int greaterThanAverage;
 
-	public int getSum() {
-		return sum;
-	}
-
-	public void setSum(int sum) {
-		this.sum = sum;
-	}
-
-	public int getAverage() {
-		return average;
-	}
-
-	public void setAverage(int average) {
-		this.average = average;
-	}
-
-	public int getGreaterThanAverage() {
-		return greaterThanAverage;
-	}
-
-	public void setGreaterThanAverage(int greaterThanAverage) {
-		this.greaterThanAverage = greaterThanAverage;
-	}
+//	public int getSum() {
+//		return sum;
+//	}
+//
+//	public void setSum(int sum) {
+//		this.sum = sum;
+//	}
+//
+//	public int getAverage() {
+//		return average;
+//	}
+//
+//	public void setAverage(int average) {
+//		this.average = average;
+//	}
+//
+//	public int getGreaterThanAverage() {
+//		return greaterThanAverage;
+//	}
+//
+//	public void setGreaterThanAverage(int greaterThanAverage) {
+//		this.greaterThanAverage = greaterThanAverage;
+//	}
 	
 	
 }
